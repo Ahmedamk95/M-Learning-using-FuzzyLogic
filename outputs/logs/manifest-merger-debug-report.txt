@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:6:5-80
+MERGED from [M-Learning:ExcelClassLibrary-debug:unspecified] C:\Users\Sohail\.android\build-cache\cbf4ced3216760fdae596b9fbec301d776c39052\output\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [M-Learning:ExcelClassLibrary-debug:unspecified] C:\Users\Sohail\.android\build-cache\cbf4ced3216760fdae596b9fbec301d776c39052\output\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:8:5-88
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:8:22-85
+application
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:10:5-43:19
+MERGED from [M-Learning:ExcelClassLibrary-debug:unspecified] C:\Users\Sohail\.android\build-cache\cbf4ced3216760fdae596b9fbec301d776c39052\output\AndroidManifest.xml:15:5-20:43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sohail\.android\build-cache\3842f325bc03f29e22564efb81bbcf2807414495\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sohail\.android\build-cache\e1a014b34e0b86edb7f6b206f3db3d7bb3d163ad\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sohail\.android\build-cache\416549ce7625bc9265984e8b81b72f8f4221d486\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sohail\.android\build-cache\51eb839e649373796a2487dc24872a1ce891ff15\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sohail\.android\build-cache\0e8eb873e36315fb58313d75393e4df23204093d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sohail\.android\build-cache\34ef2e6c6425d36be8cca96cd66040208bba2258\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sohail\.android\build-cache\9cc125bf476ed13f034f9aaef8be4c61710f5437\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sohail\.android\build-cache\2c2c11c30d2879b80a8cd795f04bf75459933a48\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sohail\.android\build-cache\43dcda5f0af40bee1513e0a13f124fa0616371c4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] C:\Users\Sohail\.android\build-cache\fe45e1e30e7c93d8b94189708f823bcd477299e7\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.saboo.mlearning.MainActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:launchMode
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:19:13-48
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.saboo.mlearning.RegisterActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:26:9-28:51
+	android:launchMode
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:28:13-48
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:27:13-45
+activity#com.saboo.mlearning.StudentDashboard
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:29:9-54
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:29:19-51
+activity#com.saboo.mlearning.StaffDashboard
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:30:9-52
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:30:19-49
+activity#com.saboo.mlearning.Feedback
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:31:9-46
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:31:19-43
+activity#com.saboo.mlearning.FeedbackFormActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:32:9-58
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:32:19-55
+activity#com.saboo.mlearning.QueryActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:33:19-48
+activity#com.saboo.mlearning.AnnouncementsActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:34:9-59
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:34:19-56
+activity#com.saboo.mlearning.StudyMaterialsActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:35:9-60
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:35:19-57
+activity#com.saboo.mlearning.AllQuizzesActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:36:9-56
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:36:19-53
+activity#com.saboo.mlearning.QuizActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:37:9-50
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:37:19-47
+activity#com.saboo.mlearning.CreateAnnouncementActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:38:9-64
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:38:19-61
+activity#com.saboo.mlearning.UploadStudyActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:39:9-57
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:39:19-54
+activity#com.saboo.mlearning.FilePicker
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:40:9-48
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:40:19-45
+activity#com.saboo.mlearning.StaffQueriesActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:41:9-58
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:41:19-55
+activity#com.saboo.mlearning.CreateQuizActivity
+ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:42:9-65
+	android:name
+		ADDED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml:42:19-53
+uses-sdk
+INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [M-Learning:ExcelClassLibrary-debug:unspecified] C:\Users\Sohail\.android\build-cache\cbf4ced3216760fdae596b9fbec301d776c39052\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sohail\.android\build-cache\3842f325bc03f29e22564efb81bbcf2807414495\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sohail\.android\build-cache\e1a014b34e0b86edb7f6b206f3db3d7bb3d163ad\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sohail\.android\build-cache\416549ce7625bc9265984e8b81b72f8f4221d486\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sohail\.android\build-cache\51eb839e649373796a2487dc24872a1ce891ff15\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sohail\.android\build-cache\0e8eb873e36315fb58313d75393e4df23204093d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sohail\.android\build-cache\34ef2e6c6425d36be8cca96cd66040208bba2258\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sohail\.android\build-cache\9cc125bf476ed13f034f9aaef8be4c61710f5437\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sohail\.android\build-cache\2c2c11c30d2879b80a8cd795f04bf75459933a48\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sohail\.android\build-cache\43dcda5f0af40bee1513e0a13f124fa0616371c4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] C:\Users\Sohail\.android\build-cache\fe45e1e30e7c93d8b94189708f823bcd477299e7\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sohail\.android\build-cache\3842f325bc03f29e22564efb81bbcf2807414495\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sohail\Desktop\M-Learning\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [M-Learning:ExcelClassLibrary-debug:unspecified] C:\Users\Sohail\.android\build-cache\cbf4ced3216760fdae596b9fbec301d776c39052\output\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [M-Learning:ExcelClassLibrary-debug:unspecified] C:\Users\Sohail\.android\build-cache\cbf4ced3216760fdae596b9fbec301d776c39052\output\AndroidManifest.xml:11:22-73
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sohail\.android\build-cache\3842f325bc03f29e22564efb81bbcf2807414495\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sohail\.android\build-cache\e1a014b34e0b86edb7f6b206f3db3d7bb3d163ad\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sohail\.android\build-cache\416549ce7625bc9265984e8b81b72f8f4221d486\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sohail\.android\build-cache\51eb839e649373796a2487dc24872a1ce891ff15\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sohail\.android\build-cache\0e8eb873e36315fb58313d75393e4df23204093d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sohail\.android\build-cache\34ef2e6c6425d36be8cca96cd66040208bba2258\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sohail\.android\build-cache\9cc125bf476ed13f034f9aaef8be4c61710f5437\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sohail\.android\build-cache\2c2c11c30d2879b80a8cd795f04bf75459933a48\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sohail\.android\build-cache\43dcda5f0af40bee1513e0a13f124fa0616371c4\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sohail\.android\build-cache\3842f325bc03f29e22564efb81bbcf2807414495\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sohail\.android\build-cache\3842f325bc03f29e22564efb81bbcf2807414495\output\AndroidManifest.xml:26:9-47
