@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tv_announcement_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prof. Ashfaq Shaikh"
+        android:layout_alignParentTop="true"
+        android:textColor="#0000ff"
+        android:layout_alignStart="@+id/tv_announcement"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/tv_announcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:maxLength="100"
+        android:ellipsize="end"
+        android:text="hello this is an announcement"
+        android:layout_below="@+id/tv_announcement_by"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

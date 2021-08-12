@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_quiz_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="13sp"
+        android:textColor="#0000ff"
+        android:text="Quiz By : " />
+
+    <TextView
+        android:id="@+id/tv_quiz_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_quiz_by"
+        android:layout_below="@+id/tv_quiz_by"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:text="Quiz Title" />
+
+    <TextView
+        android:id="@+id/tv_quiz_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Given"
+        android:layout_below="@+id/tv_quiz_by" />
+
+    <TextView
+        android:id="@+id/tv_quiz_given"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_quiz_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_quiz_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

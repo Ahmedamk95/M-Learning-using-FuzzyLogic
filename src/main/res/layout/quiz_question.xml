@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tv_question_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1" />
+
+    <EditText
+        android:id="@+id/et_quiz_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Quiz Quesiton"
+        android:text="Sample Quiz Question" />
+
+    <TextView
+        android:id="@+id/tv_op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 1" />
+
+    <EditText
+        android:id="@+id/et_op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="option 1"
+        android:text="Sample Option 1" />
+
+    <TextView
+        android:id="@+id/tv_op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 2" />
+
+    <EditText
+        android:id="@+id/et_op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="option 2"
+        android:text="Sample Option 2" />
+
+    <TextView
+        android:id="@+id/tv_op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 3" />
+
+    <EditText
+        android:id="@+id/et_op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="option 3"
+        android:text="Sample Option 3" />
+
+    <TextView
+        android:id="@+id/tv_op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 4" />
+
+    <EditText
+        android:id="@+id/et_op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="option 4"
+        android:text="Sample Option 4" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_correct_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose correct answer" />
+
+    <RadioGroup
+        android:id="@+id/rg_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/rb_op1">
+
+        <RadioButton
+            android:id="@+id/rb_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="op1"
+            android:text="Option 1" />
+
+        <RadioButton
+            android:id="@+id/rb_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="op2"
+            android:text="Option 2" />
+
+        <RadioButton
+            android:id="@+id/rb_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="op3"
+            android:text="Option 3" />
+
+        <RadioButton
+            android:id="@+id/rb_op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="op4"
+            android:text="Option 4" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

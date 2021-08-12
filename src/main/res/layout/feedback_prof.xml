@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_staff_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="{Prof. Farida Attar}"
+        android:layout_alignBaseline="@+id/tv_feedback_status"
+        android:layout_alignBottom="@+id/tv_feedback_status"
+        android:layout_toEndOf="@+id/tv_is_feedback_given"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/tv_feedback_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:padding="5dp"
+        android:text="{Give Feedback}"
+        android:textColor="#ffffff"
+        android:textSize="8sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp" />
+
+    <TextView
+        android:id="@+id/tv_is_feedback_given"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="" />
+
+</RelativeLayout>
